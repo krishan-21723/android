@@ -1,0 +1,2 @@
+rootProject.name = "FloatHintandAutocomplete"
+include ':app'
