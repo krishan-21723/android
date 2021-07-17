@@ -1,0 +1,2 @@
+rootProject.name = "Cricket Thermometer"
+include ':app'

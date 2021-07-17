@@ -1,0 +1,2 @@
+rootProject.name = "FragmentsTest"
+include ':app'
