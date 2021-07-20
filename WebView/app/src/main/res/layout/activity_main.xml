@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wvlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ebay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EBAY" />
+
+    <Button
+        android:id="@+id/amazon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amazon" />
+
+    <Button
+        android:id="@+id/flipkart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flipkart" />
+
+    <ImageView
+        android:id="@+id/ivFlipkart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/flipkart_foreground" />
+
+    <ImageView
+        android:id="@+id/ivAmazon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/amazon_foreground" />
+
+    <ImageView
+        android:id="@+id/ivEbay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ebay_foreground" />
+</LinearLayout>
