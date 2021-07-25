@@ -1,0 +1,2 @@
+rootProject.name = "IntroMaps"
+include ':app'
